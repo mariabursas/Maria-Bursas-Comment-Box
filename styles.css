@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-inline: 10%;
+    align-content: space-between;
+    border: 1px solid black;
+    border-radius: 1px;
+    padding: 0.5%;
+    flex-wrap: wrap;
+}
+
+form {
+    flex-basis: 30%;
+
+}
+
+aside {
+    flex-basis: 60%;
+
+}
+
+form,
+aside {
+    padding: 1%;
+    box-sizing: border-box;
+    margin-left: 1%;
+}
+
+.same-row,
+i {
+    display: inline;
+}
+
+form {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.sumit-button {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+button {
+    background-color: rgb(64, 160, 181);
+    border-radius: 3px;
+    border-color: rgb(64, 160, 181);
+    color: white;
+}
+
+textarea,
+button {
+    padding: 1%;
+    margin-bottom: 10px;
+}
+
+i,
+img {
+    padding-left: 2%;
+}
